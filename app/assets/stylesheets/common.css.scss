@@ -5,6 +5,13 @@ $gray: #555 !default;
 $grayLight: #999 !default;
 $grayDarker: #222 !default;
 
+/* Static Navbar Full-Width */
+.navbar-inner {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
 /* footer */
 
 #footer {
