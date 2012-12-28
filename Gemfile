@@ -1,8 +1,18 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.9'
-gem 'devise'
 gem 'bootstrap-sass'
+gem 'devise'
+
+gem 'gollum'
+#GitHub Flavored Markdown
+gem 'github-markdown'
+#Markdown
+gem 'redcarpet'
+#MediaWiki
+gem 'wikicloth'
+
+
 gem 'acts_as_commentable_with_threading'
 
 
@@ -12,8 +22,8 @@ group :development do
   gem 'sqlite3'
   gem 'rspec-rails'
   gem 'guard-rspec'
-  gem "better_errors"
-  gem "binding_of_caller"
+  gem 'better_errors'
+  gem 'binding_of_caller'
 end
 
 
